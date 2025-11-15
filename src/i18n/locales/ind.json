@@ -1,0 +1,65 @@
+{
+  "appName": "LEOTELL",
+  "tagline": "ራሳችን ግንኙነት",
+  "subtitle": "በብሎክቼይን የተደገፈ ግልጽ ጥሪዎች",
+  "phoneNumber": "+251 11 123 4567",
+  "nav": {
+    "dialPad": "መደወያ ቁልፎች",
+    "buyAirtime": "የአየር ጊዜ ግዛ",
+    "callHistory": "የጥሪ ታሪክ",
+    "vision": "የእይታ መግለጫ"
+  },
+  "dialPad": {
+    "enterNumber": "ስልክ ቁጥር አስገባ",
+    "call": "ደውል",
+    "endCall": "ጥሪ አቁም",
+    "calling": "እየደወለ...",
+    "connected": "ተገናኝቷል",
+    "callEnded": "ጥሪው አለቀ"
+  },
+  "airtime": {
+    "currentBalance": "የአሁኑ ቀሪ",
+    "minutes": "ደቂቃዎች",
+    "packages": "የአየር ጊዜ ፓኬጆች",
+    "starter": "መጀመሪያ",
+    "popular": "ታዋቂ",
+    "premium": "ፕሪሚየም",
+    "ultimate": "የመጨረሻ",
+    "buyWithCrypto": "በክሪፕቶ ግዛ",
+    "mostPopular": "በጣም ታዋቂ",
+    "bestValue": "ምርጥ ዋጋ"
+  },
+  "callHistory": {
+    "title": "የቅርብ ጊዜ ጥሪዎች",
+    "outgoing": "ወጪ",
+    "incoming": "ገቢ",
+    "missed": "ያመለጡ",
+    "duration": "ጊዜ",
+    "noHistory": "እስካሁን የጥሪ ታሪክ የለም"
+  },
+  "vision": {
+    "title": "የእኛ እይታ",
+    "content": "LEOTELL የባህላዊ ቴሌፎን አስተማማኝነትን ከብሎክቼይን ቴክኖሎጂ ነፃነት እና ግልጽነት ጋር በማጣመር የአለም አቀፍ ግንኙነትን እያብዮት ነው። ለሁሉም፣ በየትም ቦታ ራስ ገዝ እና ሊገደብ በማይችል ግንኙነት እናምናለን።",
+    "mission": "የእኛ ተልእኮ ሙሉ በሙሉ በግል በሆነ መንገድ፣ በተወሰነ ቴክኖሎጂ የተጎለበተ እና በክሪፕቶ ምንዛሬ የሚከፈል ግልጽ የድምጽ ጥሪዎችን ማቅረብ ነው።",
+    "values": "በግንኙነት ውስጥ ለነፃነት፣ ለግላዊነት እና ተደራሽነት እንቆማለን።",
+    "back": "ወደ ቤት ተመለስ"
+  },
+  "payment": {
+    "title": "ግዢዎን ያጠናቅቁ",
+    "orderSummary": "የትዕዛዝ ማጠቃለያ",
+    "package": "ፓኬጅ",
+    "price": "ዋጋ",
+    "paymentMethod": "የክፍያ ዘዴ",
+    "cryptoPayment": "የክሪፕቶ ምንዛሬ ክፍያ",
+    "processing": "ክፍያ በማስኬድ ላይ...",
+    "success": "ክፍያ ተሳክቷል!",
+    "failed": "ክፍያ አልተሳካም። እባክዎ እንደገና ይሞክሩ።",
+    "confirm": "ክፍያ አረጋግጥ",
+    "cancel": "ሰርዝ"
+  },
+  "footer": {
+    "developedBy": "የተገነባው በ",
+    "privacy": "የግላዊነት ፖሊሲ",
+    "terms": "የአገልግሎት ውሎች"
+  }
+}

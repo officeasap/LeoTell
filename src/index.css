@@ -8,81 +8,86 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* LEOTELL Design System */
+    --background: 221 33% 96%; /* #eceef6 */
+    --foreground: 120 50% 99%; /* #fcfdfc */
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 221 33% 96%;
+    --card-foreground: 217 54% 6%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 221 33% 96%;
+    --popover-foreground: 217 54% 6%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --frame: 217 54% 6%; /* #07080f - Dark frames */
+    --frame-foreground: 120 50% 99%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --primary: 109 80% 33%; /* #2e970e - Green accent */
+    --primary-foreground: 120 50% 99%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --secondary: 221 33% 96%;
+    --secondary-foreground: 217 54% 6%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --muted: 221 20% 88%;
+    --muted-foreground: 217 30% 40%;
+
+    --accent: 109 80% 33%; /* Green accent */
+    --accent-foreground: 120 50% 99%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 120 50% 99%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 217 30% 20%;
+    --input: 217 54% 6%;
+    --ring: 109 80% 33%;
 
-    --radius: 0.5rem;
+    --radius: 1.125rem; /* 18px */
+
+    /* Custom shadows */
+    --shadow-mezgebu: 0 4px 12px rgba(7, 8, 15, 0.15);
+    --shadow-mezgebu-intense: 0 8px 24px rgba(7, 8, 15, 0.25);
 
     --sidebar-background: 0 0% 98%;
-
     --sidebar-foreground: 240 5.3% 26.1%;
-
     --sidebar-primary: 240 5.9% 10%;
-
     --sidebar-primary-foreground: 0 0% 98%;
-
     --sidebar-accent: 240 4.8% 95.9%;
-
     --sidebar-accent-foreground: 240 5.9% 10%;
-
     --sidebar-border: 220 13% 91%;
-
     --sidebar-ring: 217.2 91.2% 59.8%;
   }
 
   .dark {
-    --background: 222.2 84% 4.9%;
-    --foreground: 210 40% 98%;
+    --background: 217 54% 6%;
+    --foreground: 120 50% 99%;
 
-    --card: 222.2 84% 4.9%;
-    --card-foreground: 210 40% 98%;
+    --card: 217 54% 6%;
+    --card-foreground: 120 50% 99%;
 
-    --popover: 222.2 84% 4.9%;
-    --popover-foreground: 210 40% 98%;
+    --popover: 217 54% 6%;
+    --popover-foreground: 120 50% 99%;
 
-    --primary: 210 40% 98%;
-    --primary-foreground: 222.2 47.4% 11.2%;
+    --frame: 221 33% 96%;
+    --frame-foreground: 217 54% 6%;
 
-    --secondary: 217.2 32.6% 17.5%;
-    --secondary-foreground: 210 40% 98%;
+    --primary: 109 80% 33%;
+    --primary-foreground: 120 50% 99%;
 
-    --muted: 217.2 32.6% 17.5%;
-    --muted-foreground: 215 20.2% 65.1%;
+    --secondary: 217 40% 15%;
+    --secondary-foreground: 120 50% 99%;
 
-    --accent: 217.2 32.6% 17.5%;
-    --accent-foreground: 210 40% 98%;
+    --muted: 217 40% 15%;
+    --muted-foreground: 221 20% 65%;
+
+    --accent: 109 80% 33%;
+    --accent-foreground: 120 50% 99%;
 
     --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 120 50% 99%;
 
-    --border: 217.2 32.6% 17.5%;
-    --input: 217.2 32.6% 17.5%;
-    --ring: 212.7 26.8% 83.9%;
+    --border: 217 40% 20%;
+    --input: 217 40% 15%;
+    --ring: 109 80% 33%;
+
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;
@@ -91,6 +96,37 @@ All colors MUST be HSL.
     --sidebar-accent-foreground: 240 4.8% 95.9%;
     --sidebar-border: 240 3.7% 15.9%;
     --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer utilities {
+  .shadow-mezgebu {
+    box-shadow: 0 4px 12px rgba(7, 8, 15, 0.15);
+  }
+  
+  .shadow-mezgebu-intense {
+    box-shadow: 0 8px 24px rgba(7, 8, 15, 0.25);
+  }
+
+  .frame-bounce {
+    animation: bounce 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+
+  .hover-scale {
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .hover-scale:hover {
+    transform: scale(1.05);
+  }
+
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
   }
 }
 
