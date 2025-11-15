@@ -43,8 +43,8 @@ All colors MUST be HSL.
     --radius: 1.125rem; /* 18px */
 
     /* Custom shadows - Black Jack */
-    --shadow-mezgebu: 0 4px 12px hsl(0 0% 1% / 0.3);
-    --shadow-mezgebu-intense: 0 8px 24px hsl(0 0% 1% / 0.4);
+    --shadow-mezgebu: 0 6px 20px hsl(0 0% 1% / 0.5);
+    --shadow-mezgebu-intense: 0 12px 32px hsl(0 0% 1% / 0.6);
 
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 240 5.3% 26.1%;
@@ -101,11 +101,11 @@ All colors MUST be HSL.
 
 @layer utilities {
   .shadow-mezgebu {
-    box-shadow: 0 4px 12px hsl(0 0% 1% / 0.3);
+    box-shadow: 0 6px 20px hsl(0 0% 1% / 0.5);
   }
   
   .shadow-mezgebu-intense {
-    box-shadow: 0 8px 24px hsl(0 0% 1% / 0.4);
+    box-shadow: 0 12px 32px hsl(0 0% 1% / 0.6);
   }
 
   .frame-bounce {

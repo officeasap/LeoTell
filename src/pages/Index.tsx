@@ -6,8 +6,6 @@ import { LanguageToggle } from '@/components/LanguageToggle';
 import { DialPad } from '@/components/DialPad';
 import { AirtimeCard } from '@/components/AirtimeCard';
 import { CallHistory } from '@/components/CallHistory';
-import { VisionStatement } from '@/components/VisionStatement';
-import { TabsContent } from '@/components/ui/tabs';
 
 const Index = () => {
   const [activeTab, setActiveTab] = useState('dialpad');
@@ -28,7 +26,6 @@ const Index = () => {
             {activeTab === 'dialpad' && <DialPad />}
             {activeTab === 'airtime' && <AirtimeCard />}
             {activeTab === 'history' && <CallHistory />}
-            {activeTab === 'vision' && <VisionStatement />}
           </div>
         </div>
 

@@ -1,7 +1,6 @@
 import { useTranslation } from 'react-i18next';
-import { Phone } from 'lucide-react';
+import { Phone, Satellite } from 'lucide-react';
 import { Card } from '@/components/ui/card';
-import redBeret from '@/assets/red-beret.png';
 
 export const Header = () => {
   const { t } = useTranslation();
@@ -15,7 +14,7 @@ export const Header = () => {
         <div className="flex items-center justify-center gap-4">
           <Phone className="h-12 w-12 text-frame" />
           <h1 className="text-5xl font-bold text-frame">{t('appName')}</h1>
-          <img src={redBeret} alt="Red Beret" className="h-12 w-12 object-contain" />
+          <Satellite className="h-12 w-12 text-accent" />
         </div>
       </div>
       
