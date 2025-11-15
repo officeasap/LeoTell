@@ -1,0 +1,65 @@
+{
+  "appName": "LEOTELL",
+  "tagline": "Communication Souveraine",
+  "subtitle": "Appels cristallins alimentés par la blockchain",
+  "phoneNumber": "+33 1 23 45 67 89",
+  "nav": {
+    "dialPad": "Clavier",
+    "buyAirtime": "Acheter du Crédit",
+    "callHistory": "Historique",
+    "vision": "Notre Vision"
+  },
+  "dialPad": {
+    "enterNumber": "Entrez le numéro",
+    "call": "Appeler",
+    "endCall": "Raccrocher",
+    "calling": "Appel en cours...",
+    "connected": "Connecté",
+    "callEnded": "Appel terminé"
+  },
+  "airtime": {
+    "currentBalance": "Solde Actuel",
+    "minutes": "minutes",
+    "packages": "Forfaits de Crédit",
+    "starter": "Débutant",
+    "popular": "Populaire",
+    "premium": "Premium",
+    "ultimate": "Ultime",
+    "buyWithCrypto": "Acheter avec Crypto",
+    "mostPopular": "Plus Populaire",
+    "bestValue": "Meilleur Rapport"
+  },
+  "callHistory": {
+    "title": "Appels Récents",
+    "outgoing": "Sortant",
+    "incoming": "Entrant",
+    "missed": "Manqué",
+    "duration": "Durée",
+    "noHistory": "Aucun historique d'appels"
+  },
+  "vision": {
+    "title": "Notre Vision",
+    "content": "LEOTELL révolutionne la communication mondiale en combinant la fiabilité de la téléphonie traditionnelle avec la liberté et la transparence de la technologie blockchain. Nous croyons en une communication souveraine et incensurable pour tous, partout.",
+    "mission": "Notre mission est de fournir des appels vocaux cristallins avec une confidentialité totale, alimentés par une technologie décentralisée et payés en crypto-monnaie.",
+    "values": "Nous défendons la liberté, la confidentialité et l'accessibilité dans la communication.",
+    "back": "Retour à l'Accueil"
+  },
+  "payment": {
+    "title": "Finaliser Votre Achat",
+    "orderSummary": "Résumé de la Commande",
+    "package": "Forfait",
+    "price": "Prix",
+    "paymentMethod": "Méthode de Paiement",
+    "cryptoPayment": "Paiement Crypto-monnaie",
+    "processing": "Traitement du paiement...",
+    "success": "Paiement réussi!",
+    "failed": "Échec du paiement. Veuillez réessayer.",
+    "confirm": "Confirmer le Paiement",
+    "cancel": "Annuler"
+  },
+  "footer": {
+    "developedBy": "Développé par",
+    "privacy": "Politique de Confidentialité",
+    "terms": "Conditions d'Utilisation"
+  }
+}

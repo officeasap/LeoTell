@@ -1,0 +1,65 @@
+{
+  "appName": "LEOTELL",
+  "tagline": "Sovereign Communication",
+  "subtitle": "Crystal-clear calls powered by blockchain",
+  "phoneNumber": "+1 (555) 123-4567",
+  "nav": {
+    "dialPad": "Dial Pad",
+    "buyAirtime": "Buy Airtime",
+    "callHistory": "Call History",
+    "vision": "Vision Statement"
+  },
+  "dialPad": {
+    "enterNumber": "Enter phone number",
+    "call": "Call",
+    "endCall": "End Call",
+    "calling": "Calling...",
+    "connected": "Connected",
+    "callEnded": "Call Ended"
+  },
+  "airtime": {
+    "currentBalance": "Current Balance",
+    "minutes": "minutes",
+    "packages": "Airtime Packages",
+    "starter": "Starter",
+    "popular": "Popular",
+    "premium": "Premium",
+    "ultimate": "Ultimate",
+    "buyWithCrypto": "Buy with Crypto",
+    "mostPopular": "Most Popular",
+    "bestValue": "Best Value"
+  },
+  "callHistory": {
+    "title": "Recent Calls",
+    "outgoing": "Outgoing",
+    "incoming": "Incoming",
+    "missed": "Missed",
+    "duration": "Duration",
+    "noHistory": "No call history yet"
+  },
+  "vision": {
+    "title": "Our Vision",
+    "content": "LEOTELL is revolutionizing global communication by combining the reliability of traditional telephony with the freedom and transparency of blockchain technology. We believe in sovereign, uncensorable communication for everyone, everywhere.",
+    "mission": "Our mission is to provide crystal-clear voice calls with complete privacy, powered by decentralized technology and paid with cryptocurrency.",
+    "values": "We stand for freedom, privacy, and accessibility in communication.",
+    "back": "Back to Home"
+  },
+  "payment": {
+    "title": "Complete Your Purchase",
+    "orderSummary": "Order Summary",
+    "package": "Package",
+    "price": "Price",
+    "paymentMethod": "Payment Method",
+    "cryptoPayment": "Cryptocurrency Payment",
+    "processing": "Processing payment...",
+    "success": "Payment successful!",
+    "failed": "Payment failed. Please try again.",
+    "confirm": "Confirm Payment",
+    "cancel": "Cancel"
+  },
+  "footer": {
+    "developedBy": "Developed by",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  }
+}

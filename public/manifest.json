@@ -1,0 +1,37 @@
+{
+  "name": "LEOTELL - Sovereign Communication",
+  "short_name": "LEOTELL",
+  "description": "Crystal-clear calls powered by blockchain",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#eceef6",
+  "theme_color": "#2e970e",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["communication", "utilities"],
+  "shortcuts": [
+    {
+      "name": "Make a Call",
+      "url": "/?tab=dialpad",
+      "description": "Open dial pad to make a call"
+    },
+    {
+      "name": "Buy Airtime",
+      "url": "/?tab=airtime",
+      "description": "Purchase airtime with crypto"
+    }
+  ]
+}
