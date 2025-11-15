@@ -1,65 +1,57 @@
 {
   "appName": "LEOTELL",
-  "tagline": "ራሳችን ግንኙነት",
-  "subtitle": "በብሎክቼይን የተደገፈ ግልጽ ጥሪዎች",
+  "tagline": "Komunikasi Berdaulat Kami",
+  "subtitle": "Panggilan Transparan Berbasis Blockchain",
   "phoneNumber": "+251 11 123 4567",
   "nav": {
-    "dialPad": "መደወያ ቁልፎች",
-    "buyAirtime": "የአየር ጊዜ ግዛ",
-    "callHistory": "የጥሪ ታሪክ",
-    "vision": "የእይታ መግለጫ"
+    "dialPad": "Papan Panggil",
+    "buyAirtime": "Beli Pulsa",
+    "callHistory": "Riwayat Panggilan"
   },
   "dialPad": {
-    "enterNumber": "ስልክ ቁጥር አስገባ",
-    "call": "ደውል",
-    "endCall": "ጥሪ አቁም",
-    "calling": "እየደወለ...",
-    "connected": "ተገናኝቷል",
-    "callEnded": "ጥሪው አለቀ"
+    "enterNumber": "Masukkan Nomor Telepon",
+    "call": "Panggil",
+    "endCall": "Akhiri Panggilan",
+    "calling": "Memanggil...",
+    "connected": "Terhubung",
+    "callEnded": "Panggilan Berakhir"
   },
   "airtime": {
-    "currentBalance": "የአሁኑ ቀሪ",
-    "minutes": "ደቂቃዎች",
-    "packages": "የአየር ጊዜ ፓኬጆች",
-    "starter": "መጀመሪያ",
-    "popular": "ታዋቂ",
-    "premium": "ፕሪሚየም",
-    "ultimate": "የመጨረሻ",
-    "buyWithCrypto": "በክሪፕቶ ግዛ",
-    "mostPopular": "በጣም ታዋቂ",
-    "bestValue": "ምርጥ ዋጋ"
+    "currentBalance": "Saldo Saat Ini",
+    "minutes": "Menit",
+    "packages": "Paket Pulsa",
+    "starter": "Pemula",
+    "popular": "Populer",
+    "premium": "Premium",
+    "ultimate": "Ultimate",
+    "buyWithCrypto": "Beli dengan Kripto",
+    "mostPopular": "Paling Populer",
+    "bestValue": "Nilai Terbaik"
   },
   "callHistory": {
-    "title": "የቅርብ ጊዜ ጥሪዎች",
-    "outgoing": "ወጪ",
-    "incoming": "ገቢ",
-    "missed": "ያመለጡ",
-    "duration": "ጊዜ",
-    "noHistory": "እስካሁን የጥሪ ታሪክ የለም"
-  },
-  "vision": {
-    "title": "የእኛ እይታ",
-    "content": "LEOTELL የባህላዊ ቴሌፎን አስተማማኝነትን ከብሎክቼይን ቴክኖሎጂ ነፃነት እና ግልጽነት ጋር በማጣመር የአለም አቀፍ ግንኙነትን እያብዮት ነው። ለሁሉም፣ በየትም ቦታ ራስ ገዝ እና ሊገደብ በማይችል ግንኙነት እናምናለን።",
-    "mission": "የእኛ ተልእኮ ሙሉ በሙሉ በግል በሆነ መንገድ፣ በተወሰነ ቴክኖሎጂ የተጎለበተ እና በክሪፕቶ ምንዛሬ የሚከፈል ግልጽ የድምጽ ጥሪዎችን ማቅረብ ነው።",
-    "values": "በግንኙነት ውስጥ ለነፃነት፣ ለግላዊነት እና ተደራሽነት እንቆማለን።",
-    "back": "ወደ ቤት ተመለስ"
+    "title": "Panggilan Terbaru",
+    "outgoing": "Keluar",
+    "incoming": "Masuk",
+    "missed": "Tidak Terjawab",
+    "duration": "Durasi",
+    "noHistory": "Belum Ada Riwayat Panggilan"
   },
   "payment": {
-    "title": "ግዢዎን ያጠናቅቁ",
-    "orderSummary": "የትዕዛዝ ማጠቃለያ",
-    "package": "ፓኬጅ",
-    "price": "ዋጋ",
-    "paymentMethod": "የክፍያ ዘዴ",
-    "cryptoPayment": "የክሪፕቶ ምንዛሬ ክፍያ",
-    "processing": "ክፍያ በማስኬድ ላይ...",
-    "success": "ክፍያ ተሳክቷል!",
-    "failed": "ክፍያ አልተሳካም። እባክዎ እንደገና ይሞክሩ።",
-    "confirm": "ክፍያ አረጋግጥ",
-    "cancel": "ሰርዝ"
+    "title": "Selesaikan Pembelian Anda",
+    "orderSummary": "Ringkasan Pesanan",
+    "package": "Paket",
+    "price": "Harga",
+    "paymentMethod": "Metode Pembayaran",
+    "cryptoPayment": "Pembayaran Kripto",
+    "processing": "Memproses Pembayaran...",
+    "success": "Pembayaran Berhasil!",
+    "failed": "Pembayaran Gagal. Silakan Coba Lagi.",
+    "confirm": "Konfirmasi Pembayaran",
+    "cancel": "Batal"
   },
   "footer": {
-    "developedBy": "የተገነባው በ",
-    "privacy": "የግላዊነት ፖሊሲ",
-    "terms": "የአገልግሎት ውሎች"
+    "developedBy": "Aplikasi Ini Dikembangkan Oleh",
+    "privacy": "Kebijakan Privasi",
+    "terms": "Syarat Layanan"
   }
 }

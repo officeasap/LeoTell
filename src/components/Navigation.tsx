@@ -11,7 +11,7 @@ export const Navigation = ({ activeTab, onTabChange }: NavigationProps) => {
 
   return (
     <Tabs value={activeTab} onValueChange={onTabChange} className="w-full">
-      <TabsList className="grid w-full grid-cols-4 bg-frame h-auto p-1 gap-1">
+      <TabsList className="grid w-full grid-cols-3 bg-frame h-auto p-1 gap-1">
         <TabsTrigger 
           value="dialpad" 
           className="data-[state=active]:bg-accent data-[state=active]:text-accent-foreground text-frame-foreground py-3 rounded-xl transition-all duration-300"
@@ -29,12 +29,6 @@ export const Navigation = ({ activeTab, onTabChange }: NavigationProps) => {
           className="data-[state=active]:bg-accent data-[state=active]:text-accent-foreground text-frame-foreground py-3 rounded-xl transition-all duration-300"
         >
           {t('nav.callHistory')}
-        </TabsTrigger>
-        <TabsTrigger 
-          value="vision" 
-          className="data-[state=active]:bg-accent data-[state=active]:text-accent-foreground text-frame-foreground py-3 rounded-xl transition-all duration-300"
-        >
-          {t('nav.vision')}
         </TabsTrigger>
       </TabsList>
     </Tabs>
