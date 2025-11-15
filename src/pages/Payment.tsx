@@ -109,6 +109,12 @@ export default function Payment() {
             </Button>
           </div>
         </Card>
+
+        <footer className="mt-8 py-4 text-center border-t border-border">
+          <p className="text-xs text-muted-foreground">
+            © 2025 LEOTELL. All rights reserved. | Developed by <span className="font-semibold text-accent">PT-Asap</span>
+          </p>
+        </footer>
       </div>
     </div>
   );

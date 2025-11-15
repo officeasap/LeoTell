@@ -1,16 +1,22 @@
 import { useTranslation } from 'react-i18next';
-import { Phone, Dumbbell } from 'lucide-react';
+import { Phone } from 'lucide-react';
 import { Card } from '@/components/ui/card';
+import redBeret from '@/assets/red-beret.png';
 
 export const Header = () => {
   const { t } = useTranslation();
 
   return (
     <header className="text-center space-y-8 py-8">
-      <div className="flex items-center justify-center gap-4">
-        <Phone className="h-12 w-12 text-frame" />
-        <h1 className="text-5xl font-bold text-frame">{t('appName')}</h1>
-        <Dumbbell className="h-12 w-12 text-accent" />
+      <div className="flex flex-col items-center justify-center gap-4">
+        <div className="w-24 h-24 bg-muted rounded-full flex items-center justify-center shadow-mezgebu-intense">
+          <span className="text-4xl text-muted-foreground">📱</span>
+        </div>
+        <div className="flex items-center justify-center gap-4">
+          <Phone className="h-12 w-12 text-frame" />
+          <h1 className="text-5xl font-bold text-frame">{t('appName')}</h1>
+          <img src={redBeret} alt="Red Beret" className="h-12 w-12 object-contain" />
+        </div>
       </div>
       
       <div className="space-y-2">

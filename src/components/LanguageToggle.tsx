@@ -10,8 +10,8 @@ import {
 
 const languages = [
   { code: 'en', name: 'English', flag: '🇺🇸' },
+  { code: 'ind', name: 'Bahasa (Barsa)', flag: '🇮🇩' },
   { code: 'fr', name: 'Français', flag: '🇫🇷' },
-  { code: 'ind', name: 'Barsa', flag: '🇪🇹' },
 ];
 
 export const LanguageToggle = () => {
@@ -29,7 +29,7 @@ export const LanguageToggle = () => {
         <Button 
           variant="outline" 
           size="sm" 
-          className="gap-2 bg-frame text-frame-foreground border-accent hover:bg-accent hover:text-accent-foreground transition-all duration-300"
+          className="gap-2 bg-frame text-frame-foreground border-accent hover:bg-accent hover:text-accent-foreground transition-all duration-300 shadow-[0_4px_12px_hsl(0_0%_1%/0.3)]"
         >
           <Globe className="h-4 w-4" />
           <span className="text-lg">{currentLanguage.flag}</span>
